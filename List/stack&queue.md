@@ -1,4 +1,4 @@
-# Stack
+# 1. Stack
 ### description
 1. LIFO (Last In First Out)   
 
@@ -6,19 +6,19 @@
 
 3. Initialize: top = -1   
 
-# Queue
+# 2. Queue
 ### description
 1. FIFO (First In First Out)   
 
 2. Variable: front, rear (rear: array의 index)   
 
-## Queue (no circular)
+## 2.1 Queue (no circular)
 
 1. Initialize: front = rear = -1   
 
 2. dequeue할 때마다 front가 1씩 줄어드는데 다시 늘어나지 않아서 reuse 불가 => circular queue로 해결   
 
-## Circular Queue
+## 2.2 Circular Queue
 ### description
 1. Initialize: front = rear = 0   
 
